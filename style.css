@@ -2,22 +2,30 @@ body{
     background: white;
 }
 
+ul{
+    display: inline;
+    color: yellow
+}
+
+#negro{
+    color: white;
+    background-color: black;
+}
+
 #padre{
     overflow: hidden;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    font-style: bold;
-    
-    
+    font-style: normal        
 }
 .hija {
-        background-color: blue;
+        background-color: red;
         width: 300px;
         height: 300px;
         padding: 5px;
-        border: solid 3px green;
+        border: solid 3px rgb(255, 255, 255);
         margin: 3px;
         box-sizing: border-box;
         float: left;
-        
+      
 }
